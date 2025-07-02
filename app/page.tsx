@@ -38,6 +38,8 @@ export default function Home() {
                   priority
                 />
               </div>
+              
+              // trigger deploy
               <Button
                 className="bg-green-600 hover:bg-green-700 text-white p-2.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                 onClick={() =>
