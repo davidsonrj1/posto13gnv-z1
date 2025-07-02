@@ -42,7 +42,7 @@ export default function Home() {
                 className="bg-green-600 hover:bg-green-700 text-white p-2.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                 onClick={() =>
                   window.open(
-                    "https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
+                    "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
                     "_blank",
                   )
                 }
@@ -69,7 +69,7 @@ export default function Home() {
                   className="bg-green-600 hover:bg-green-700 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold text-xs sm:text-sm"
                   onClick={() =>
                     window.open(
-                      "https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
+                      "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
                       "_blank",
                     )
                   }
@@ -107,7 +107,7 @@ export default function Home() {
                 className="bg-green-600 hover:bg-green-700 text-white font-bold px-10 py-7 text-xl leading-tight shadow-2xl hover:shadow-green-500/25 transition-all duration-300 border-2 border-green-500 w-full rounded-xl"
                 onClick={() =>
                   window.open(
-                    "https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
+                    "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
                     "_blank",
                   )
                 }
@@ -155,7 +155,7 @@ export default function Home() {
                     className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-12 py-6 shadow-lg hover:shadow-xl transition-all duration-300 text-xl"
                     onClick={() =>
                       window.open(
-                        "https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
+                        "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
                         "_blank",
                       )
                     }
@@ -476,7 +476,7 @@ export default function Home() {
             className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 sm:px-12 py-4 sm:py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 text-lg sm:text-xl inline-flex items-center space-x-3 border-4 border-white"
             onClick={() =>
               window.open(
-                "https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
+                "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
                 "_blank",
               )
             }
@@ -631,7 +631,7 @@ export default function Home() {
                 <button
                   onClick={() =>
                     window.open(
-                      "https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
+                      "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
                       "_blank",
                     )
                   }
@@ -642,7 +642,7 @@ export default function Home() {
                   </div>
                   <div className="min-w-0 flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 text-gray-900">WhatsApp</h3>
-                    <p className="text-sm sm:text-base md:text-lg text-gray-600 break-all">+55 21 96556-7000</p>
+                    <p className="text-sm sm:text-base md:text-lg text-gray-600 break-all">+55 21 95916-7359</p>
                   </div>
                 </button>
 
@@ -706,7 +706,7 @@ export default function Home() {
 
       {/* Floating WhatsApp Button */}
       <Link
-        href="https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+        href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8 bg-green-600 hover:bg-green-700 text-white p-3 sm:p-5 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 z-50 animate-pulse"
@@ -738,7 +738,7 @@ export default function Home() {
               <div className="space-y-2 text-gray-300 text-sm">
                 <div className="flex items-center space-x-2">
                   <MessageCircle className="w-4 h-4 text-yellow-400" />
-                  <p>+55 21 96556-7000</p>
+                  <p>+55 21 95916-7359</p>
                 </div>
                 <div className="flex items-start space-x-2">
                   <MapPin className="w-4 h-4 text-yellow-400 mt-0.5" />
@@ -761,7 +761,7 @@ export default function Home() {
                 className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold w-full"
                 onClick={() =>
                   window.open(
-                    "https://wa.me/5521965567000?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
+                    "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
                     "_blank",
                   )
                 }
