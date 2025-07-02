@@ -38,8 +38,6 @@ export default function Home() {
                   priority
                 />
               </div>
-              
-              // trigger deploy
               <Button
                 className="bg-green-600 hover:bg-green-700 text-white p-2.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                 onClick={() =>
@@ -598,8 +596,8 @@ export default function Home() {
             <div className="group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl md:col-span-2 lg:col-span-1">
               <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/testimonial-rosaria-new.png"
-                  alt="Avaliação 5 estrelas da Rosaria Pogili no Google Reviews sobre atendimento do Posto 13 GNV"
+                  src="/testimonial-nelson-new.png"
+                  alt="Avaliação 5 estrelas do Nelson Lima no Google Reviews sobre serviço de qualidade do Posto 13 GNV"
                   fill
                   className="object-contain bg-white transition-all duration-300 group-hover:brightness-105"
                   quality={100}
