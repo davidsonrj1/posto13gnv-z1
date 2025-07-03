@@ -99,7 +99,7 @@ export default function Home() {
                 href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 text-white font-bold px-10 py-7 text-xl leading-tight shadow-2xl hover:shadow-green-500/25 transition-all duration-300 border-2 border-green-500 w-full rounded-xl inline-flex items-center justify-center"
+                className="bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-4 text-base leading-tight shadow-2xl hover:shadow-green-500/25 transition-all duration-300 border-2 border-green-500 w-full rounded-xl inline-flex items-center justify-center"
               >
                 SOLICITAR ORÇAMENTO DE GNV
               </a>
@@ -462,10 +462,10 @@ export default function Home() {
             href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 sm:px-12 py-4 sm:py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 text-lg sm:text-xl inline-flex items-center space-x-3 border-4 border-white"
+            className="bg-green-600 hover:bg-green-700 text-white font-bold px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 lg:px-12 lg:py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 text-sm sm:text-base md:text-lg lg:text-xl inline-flex items-center space-x-1 sm:space-x-2 md:space-x-3 border-4 border-white max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
           >
-            <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
-            <span>Solicitar Orçamento Gratuito</span>
+            <MessageCircle className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+            <span className="text-xs sm:text-sm md:text-base lg:text-lg">Solicitar Orçamento Gratuito</span>
           </a>
         </div>
       </section>
