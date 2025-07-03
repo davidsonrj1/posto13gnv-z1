@@ -1,6 +1,4 @@
 "use client"
-
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Clock, MessageCircle, Users, Calculator, Car, Leaf, Star } from "lucide-react"
 import Image from "next/image"
@@ -38,18 +36,14 @@ export default function Home() {
                   priority
                 />
               </div>
-              
-              <Button
-                className="bg-green-600 hover:bg-green-700 text-white p-2.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                onClick={() =>
-                  window.open(
-                    "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
-                    "_blank",
-                  )
-                }
+              <a
+                href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 hover:bg-green-700 text-white p-2.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 inline-flex items-center justify-center"
               >
                 <MessageCircle className="w-5 h-5" />
-              </Button>
+              </a>
             </div>
 
             {/* Desktop Layout */}
@@ -66,18 +60,15 @@ export default function Home() {
               </div>
 
               <div className="flex items-center">
-                <Button
-                  className="bg-green-600 hover:bg-green-700 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold text-xs sm:text-sm"
-                  onClick={() =>
-                    window.open(
-                      "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
-                      "_blank",
-                    )
-                  }
+                <a
+                  href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-600 hover:bg-green-700 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold text-xs sm:text-sm inline-flex items-center justify-center"
                 >
                   <MessageCircle className="w-3 h-3 sm:w-4 sm:h-4 mr-1.5" />
                   <span className="hidden md:inline">Fale por</span> WhatsApp
-                </Button>
+                </a>
               </div>
             </div>
           </div>
@@ -104,17 +95,14 @@ export default function Home() {
           <div className="relative z-10 flex flex-col justify-end items-center h-full px-4 pb-8">
             {/* Large CTA Button positioned below the text in the image */}
             <div className="w-full max-w-sm mx-auto mb-4">
-              <Button
-                className="bg-green-600 hover:bg-green-700 text-white font-bold px-10 py-7 text-xl leading-tight shadow-2xl hover:shadow-green-500/25 transition-all duration-300 border-2 border-green-500 w-full rounded-xl"
-                onClick={() =>
-                  window.open(
-                    "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
-                    "_blank",
-                  )
-                }
+              <a
+                href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 hover:bg-green-700 text-white font-bold px-10 py-7 text-xl leading-tight shadow-2xl hover:shadow-green-500/25 transition-all duration-300 border-2 border-green-500 w-full rounded-xl inline-flex items-center justify-center"
               >
                 SOLICITAR ORÇAMENTO DE GNV
-              </Button>
+              </a>
             </div>
 
             {/* Promotional Text - Mobile - No Background - Below button */}
@@ -152,17 +140,14 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-4">
-                  <Button
-                    className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-12 py-6 shadow-lg hover:shadow-xl transition-all duration-300 text-xl"
-                    onClick={() =>
-                      window.open(
-                        "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
-                        "_blank",
-                      )
-                    }
+                  <a
+                    href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-12 py-6 shadow-lg hover:shadow-xl transition-all duration-300 text-xl inline-flex items-center justify-center rounded-md"
                   >
                     Solicitar Orçamento da Instalação de GNV
-                  </Button>
+                  </a>
                 </div>
 
                 {/* Key Benefits - Desktop Only */}
@@ -473,18 +458,15 @@ export default function Home() {
 
         {/* Overlapping WhatsApp Button */}
         <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 z-10">
-          <Button
+          <a
+            href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-green-600 hover:bg-green-700 text-white font-bold px-8 sm:px-12 py-4 sm:py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 text-lg sm:text-xl inline-flex items-center space-x-3 border-4 border-white"
-            onClick={() =>
-              window.open(
-                "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
-                "_blank",
-              )
-            }
           >
             <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
             <span>Solicitar Orçamento Gratuito</span>
-          </Button>
+          </a>
         </div>
       </section>
 
@@ -629,14 +611,11 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-start">
             <div className="flex flex-col justify-between h-full">
               <div className="space-y-6 sm:space-y-8">
-                <button
-                  onClick={() =>
-                    window.open(
-                      "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
-                      "_blank",
-                    )
-                  }
-                  className="flex items-center space-x-4 sm:space-x-6 p-4 sm:p-6 bg-white rounded-xl border-2 border-gray-200 hover:border-green-500 hover:bg-green-50 transition-all duration-300 shadow-lg w-full text-left cursor-pointer"
+                <a
+                  href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-4 sm:space-x-6 p-4 sm:p-6 bg-white rounded-xl border-2 border-gray-200 hover:border-green-500 hover:bg-green-50 transition-all duration-300 shadow-lg w-full text-left"
                 >
                   <div className="w-12 h-12 sm:w-16 sm:h-16 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
                     <MessageCircle className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
@@ -645,7 +624,7 @@ export default function Home() {
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-1 sm:mb-2 text-gray-900">WhatsApp</h3>
                     <p className="text-sm sm:text-base md:text-lg text-gray-600 break-all">+55 21 95916-7359</p>
                   </div>
-                </button>
+                </a>
 
                 <button
                   onClick={() =>
@@ -758,18 +737,15 @@ export default function Home() {
 
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Fale Conosco</h4>
-              <Button
-                className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold w-full"
-                onClick={() =>
-                  window.open(
-                    "https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!",
-                    "_blank",
-                  )
-                }
+              <a
+                href="https://wa.me/5521959167359?text=Olá!%20Vim%20através%20do%20site%20e%20gostaria%20de%20receber%20mais%20informações!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-semibold w-full inline-flex items-center justify-center"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
                 WhatsApp
-              </Button>
+              </a>
             </div>
           </div>
 
