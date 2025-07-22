@@ -47,7 +47,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -65,7 +65,7 @@ export default function RootLayout({
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MKFZ6QVP');`,
+})(window,document,'script','dataLayer','GTM-TBPBTTW8');`,
           }}
         />
         {/* End Google Tag Manager */}
@@ -74,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-MKFZ6QVP"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TBPBTTW8"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
