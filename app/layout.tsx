@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://posto13gnv.com.br"),
+  metadataBase: new URL("https://posto13gnvcuricica.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Posto 13 GNV - Especialistas em Sistemas GNV",
     description: "Instalação, conversão e manutenção de sistemas GNV no Rio de Janeiro. Qualidade e garantia total.",
-    url: "https://posto13gnv.com.br",
+    url: "https://posto13gnvcuricica.com",
     siteName: "Posto 13 GNV",
     locale: "pt_BR",
     type: "website",
