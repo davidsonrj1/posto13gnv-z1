@@ -240,111 +240,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sobre Nós Section */}
-      <section id="sobre-nos" className="py-12 sm:py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="text-center mb-12 sm:mb-16 md:mb-20">
-            <div className="inline-flex items-center justify-center mb-4 sm:mb-6">
-              <div className="h-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent w-16 sm:w-24"></div>
-              <span className="mx-4 sm:mx-6 text-yellow-600 font-bold text-sm sm:text-base uppercase tracking-wider"></span>
-              <div className="h-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent w-16 sm:w-24"></div>
-            </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 px-4">
-              Há mais de 10 anos no mercado de GNV
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-center">
-            <div className="w-full space-y-4 sm:space-y-6">
-              <div className="relative w-full h-[280px] sm:h-[320px] md:h-[360px] lg:h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="/business-owners.jpg"
-                  alt="Proprietários e sócios do Posto 13 GNV - equipe especializada em sistemas GNV"
-                  fill
-                  className="object-cover object-center"
-                  quality={100}
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-
-              <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-                <div className="relative w-full h-[200px] sm:h-[220px] md:h-[240px] lg:h-[260px] rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
-                    src="/carro-capo-aberto.jpg"
-                    alt="Instalação de sistema GNV - motor com capô aberto mostrando componentes do kit GNV"
-                    fill
-                    className="object-cover object-center"
-                    quality={100}
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                </div>
-
-                <div className="relative w-full h-[200px] sm:h-[220px] md:h-[240px] lg:h-[260px] rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
-                    src="/carro-pessoa2.jpg"
-                    alt="Equipe técnica do Posto 13 GNV com cliente satisfeito após instalação do sistema GNV"
-                    fill
-                    className="object-cover object-center"
-                    quality={100}
-                    sizes="(max-width: 768px) 50vw, 25vw"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-6 sm:space-y-8">
-              <div>
-                <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-gray-600 leading-relaxed">
-                  <p>
-                    A Posto 13 GNV é referência no segmento de gás natural veicular,
-                    <span className="text-yellow-600 font-semibold">
-                      {" "}
-                      com reconhecimento e homologação pelo INMETRO
-                    </span>
-                    .
-                  </p>
-                  <p>
-                    Atuamos com excelência na instalação e manutenção de kits de 3ª, 5ª e 6ª geração, além de
-                    realizarmos reteste de cilindros, sempre seguindo os mais altos padrões de qualidade e segurança.
-                  </p>
-                  <p>
-                    Com mais de <span className="text-yellow-600 font-semibold">5.000 conversões realizadas</span>,
-                    contamos com uma equipe de profissionais altamente qualificados, duas lojas modernas e equipadas, e
-                    trabalhamos apenas com as melhores marcas do mercado.
-                  </p>
-                  <p>
-                    Nosso compromisso é proporcionar{" "}
-                    <span className="text-yellow-600 font-semibold">economia real</span> para nossos clientes, com
-                    equipamentos de primeira linha, garantia total e condições de pagamento facilitadas.
-                  </p>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
-                <div className="flex items-center space-x-4 p-6 bg-yellow-50 rounded-lg border border-yellow-200 hover:border-yellow-500 hover:bg-yellow-100 transition-all duration-300">
-                  <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Users className="w-6 h-6 text-black" />
-                  </div>
-                  <div>
-                    <p className="font-bold text-lg text-gray-900">+60.000</p>
-                    <p className="text-sm text-gray-600">Instalações</p>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-4 p-6 bg-yellow-50 rounded-lg border border-yellow-200 hover:border-yellow-500 hover:bg-yellow-100 transition-all duration-300">
-                  <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Star className="w-6 h-6 text-black" />
-                  </div>
-                  <div>
-                    <p className="font-bold text-lg text-gray-900">4.7 ★ no Google</p>
-                    <p className="text-sm text-gray-600">Avaliações dos clientes</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* SEÇÃO "SOBRE NÓS" DUPLICADA REMOVIDA (Originalmente da linha 170 à 280) */}
 
       {/* Competitive Offer Banner */}
       <section className="w-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400 py-3 sm:py-4">
@@ -624,7 +520,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sobre Nós Section */}
+      {/* Sobre Nós Section - MANTIDA */}
       <section id="sobre-nos" className="py-12 sm:py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16 md:mb-20">
