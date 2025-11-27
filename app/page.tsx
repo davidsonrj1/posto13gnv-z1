@@ -122,19 +122,16 @@ export default function Home() {
               <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-6">
                   <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold text-gray-900 leading-tight">
-                    <span className="text-yellow-600">
-                      Pare de perder
-                      <br />
-                      dinheiro com
-                    </span>
-                    <br />
-                    gasolina cara e IPVA absurdo
+                    Instale seu GNV em dezembro e <span className="text-yellow-600">pague menos IPVA em janeiro.</span>{" "}
+                    Simples assim!
                   </h1>
 
                   <div className="space-y-4">
                     <p className="text-lg xl:text-2xl text-gray-700 font-medium leading-relaxed">
-                      <span className="text-yellow-600 font-bold">Economize de verdade todo mês.</span> Instale GNV,
-                      reduza gastos com combustível, pague menos IPVA e veja seu investimento se pagar em poucos meses.
+                      <span className="text-yellow-600">
+                        Converta para GNV ainda este ano e garanta até 62,5% de desconto no IPVA de 2026.
+                      </span>{" "}
+                      Fale com um especialista e veja quanto você economiza antes da cobrança do imposto.
                     </p>
                   </div>
                 </div>
@@ -225,7 +222,7 @@ export default function Home() {
                 {/* Google Rating - Desktop Only */}
                 <div className="mt-6 flex items-center justify-center space-x-2 bg-white/80 backdrop-blur-sm rounded-full px-4 py-2 shadow-lg">
                   <div className="flex items-center space-x-1">
-                    <span className="text-lg font-bold text-gray-900">4.8</span>
+                    <span className="text-lg font-bold text-gray-900">4.7</span>
                     <div className="flex items-center space-x-0.5">
                       <Star className="w-4 h-4 text-yellow-500 fill-current" />
                       <Star className="w-4 h-4 text-yellow-500 fill-current" />
@@ -233,7 +230,7 @@ export default function Home() {
                       <Star className="w-4 h-4 text-yellow-500 fill-current" />
                       <Star className="w-4 h-4 text-yellow-500 fill-current" />
                     </div>
-                    <span className="text-lg font-bold text-gray-900">(89)</span>
+                    <span className="text-lg font-bold text-gray-900">(93)</span>
                   </div>
                   <span className="text-gray-600 font-medium text-base">Avaliações no Google</span>
                 </div>
@@ -339,7 +336,7 @@ export default function Home() {
                     <Star className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <p className="font-bold text-lg text-gray-900">4.8 ★ no Google</p>
+                    <p className="font-bold text-lg text-gray-900">4.7 ★ no Google</p>
                     <p className="text-sm text-gray-600">Avaliações dos clientes</p>
                   </div>
                 </div>
@@ -585,6 +582,148 @@ export default function Home() {
                   className="object-contain bg-white transition-all duration-300 group-hover:brightness-105"
                   quality={100}
                 />
+              </div>
+            </div>
+
+            <div className="group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/testimonial-rhf-new.png"
+                  alt="Avaliação 5 estrelas da RHF Consultoria no Google Reviews sobre instalação de GNV no Posto 13"
+                  fill
+                  className="object-contain bg-white transition-all duration-300 group-hover:brightness-105"
+                  quality={100}
+                />
+              </div>
+            </div>
+
+            <div className="group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/testimonial-esmero-new.png"
+                  alt="Avaliação 5 estrelas da Esmero Construções no Google Reviews sobre serviço de GNV no Posto 13"
+                  fill
+                  className="object-contain bg-white transition-all duration-300 group-hover:brightness-105"
+                  quality={100}
+                />
+              </div>
+            </div>
+
+            <div className="group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl md:col-span-2 lg:col-span-1">
+              <div className="relative w-full h-[400px] sm:h-[450px] md:h-[500px] rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/testimonial-caio-new.png"
+                  alt="Avaliação 5 estrelas do Caio Silva no Google Reviews sobre manômetro e serviço de qualidade do Posto 13"
+                  fill
+                  className="object-contain bg-white transition-all duration-300 group-hover:brightness-105"
+                  quality={100}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sobre Nós Section */}
+      <section id="sobre-nos" className="py-12 sm:py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="text-center mb-12 sm:mb-16 md:mb-20">
+            <div className="inline-flex items-center justify-center mb-4 sm:mb-6">
+              <div className="h-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent w-16 sm:w-24"></div>
+              <span className="mx-4 sm:mx-6 text-yellow-600 font-bold text-sm sm:text-base uppercase tracking-wider"></span>
+              <div className="h-px bg-gradient-to-r from-transparent via-yellow-500 to-transparent w-16 sm:w-24"></div>
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 px-4">
+              Há mais de 10 anos no mercado de GNV
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-center">
+            <div className="w-full space-y-4 sm:space-y-6">
+              <div className="relative w-full h-[280px] sm:h-[320px] md:h-[360px] lg:h-[400px] rounded-2xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/business-owners.jpg"
+                  alt="Proprietários e sócios do Posto 13 GNV - equipe especializada em sistemas GNV"
+                  fill
+                  className="object-cover object-center"
+                  quality={100}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+
+              <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                <div className="relative w-full h-[200px] sm:h-[220px] md:h-[240px] lg:h-[260px] rounded-2xl overflow-hidden shadow-2xl">
+                  <Image
+                    src="/carro-capo-aberto.jpg"
+                    alt="Instalação de sistema GNV - motor com capô aberto mostrando componentes do kit GNV"
+                    fill
+                    className="object-cover object-center"
+                    quality={100}
+                    sizes="(max-width: 768px) 50vw, 25vw"
+                  />
+                </div>
+
+                <div className="relative w-full h-[200px] sm:h-[220px] md:h-[240px] lg:h-[260px] rounded-2xl overflow-hidden shadow-2xl">
+                  <Image
+                    src="/carro-pessoa2.jpg"
+                    alt="Equipe técnica do Posto 13 GNV com cliente satisfeito após instalação do sistema GNV"
+                    fill
+                    className="object-cover object-center"
+                    quality={100}
+                    sizes="(max-width: 768px) 50vw, 25vw"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6 sm:space-y-8">
+              <div>
+                <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-gray-600 leading-relaxed">
+                  <p>
+                    A Posto 13 GNV é referência no segmento de gás natural veicular,
+                    <span className="text-yellow-600 font-semibold">
+                      {" "}
+                      com reconhecimento e homologação pelo INMETRO
+                    </span>
+                    .
+                  </p>
+                  <p>
+                    Atuamos com excelência na instalação e manutenção de kits de 3ª, 5ª e 6ª geração, além de
+                    realizarmos reteste de cilindros, sempre seguindo os mais altos padrões de qualidade e segurança.
+                  </p>
+                  <p>
+                    Com mais de <span className="text-yellow-600 font-semibold">5.000 conversões realizadas</span>,
+                    contamos com uma equipe de profissionais altamente qualificados, duas lojas modernas e equipadas, e
+                    trabalhamos apenas com as melhores marcas do mercado.
+                  </p>
+                  <p>
+                    Nosso compromisso é proporcionar{" "}
+                    <span className="text-yellow-600 font-semibold">economia real</span> para nossos clientes, com
+                    equipamentos de primeira linha, garantia total e condições de pagamento facilitadas.
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                <div className="flex items-center space-x-4 p-6 bg-yellow-50 rounded-lg border border-yellow-200 hover:border-yellow-500 hover:bg-yellow-100 transition-all duration-300">
+                  <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Users className="w-6 h-6 text-black" />
+                  </div>
+                  <div>
+                    <p className="font-bold text-lg text-gray-900">+60.000</p>
+                    <p className="text-sm text-gray-600">Instalações</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4 p-6 bg-yellow-50 rounded-lg border border-yellow-200 hover:border-yellow-500 hover:bg-yellow-100 transition-all duration-300">
+                  <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Star className="w-6 h-6 text-black" />
+                  </div>
+                  <div>
+                    <p className="font-bold text-lg text-gray-900">4.7 ★ no Google</p>
+                    <p className="text-sm text-gray-600">Avaliações dos clientes</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
